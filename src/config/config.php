@@ -20,7 +20,7 @@ return [
      |
      */
 
-    'media-model' => \Clumsy\Eminem\Models\Media::class,
+    'media-model' => \Wizclumsy\Eminem\Models\Media::class,
 
     /*
      |--------------------------------------------------------------------------

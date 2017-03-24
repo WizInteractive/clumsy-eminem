@@ -1,11 +1,11 @@
 <?php
 
-namespace Clumsy\Eminem\Traits;
+namespace Wizclumsy\Eminem\Traits;
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
-use Clumsy\Eminem\Models\MediaAssociation;
-use Clumsy\Eminem\Models\Media;
-use Clumsy\Eminem\Facade as MediaManager;
+use Wizclumsy\Eminem\Models\MediaAssociation;
+use Wizclumsy\Eminem\Models\Media;
+use Wizclumsy\Eminem\Facade as MediaManager;
 
 trait Mediable
 {

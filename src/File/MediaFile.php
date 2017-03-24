@@ -1,9 +1,9 @@
 <?php
 
-namespace Clumsy\Eminem\File;
+namespace Wizclumsy\Eminem\File;
 
-use Clumsy\Eminem\Facade as MediaManager;
-use Clumsy\Eminem\File\File as ReferencedFile;
+use Wizclumsy\Eminem\Facade as MediaManager;
+use Wizclumsy\Eminem\File\File as ReferencedFile;
 use Symfony\Component\HttpFoundation\File\File;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\HttpFoundation\File\Exception\FileException;
@@ -73,7 +73,7 @@ class MediaFile
 
     protected function move($overwrite = false)
     {
-        $extension = \Clumsy\Eminem\Facade::guessExtension($this->filename);
+        $extension = \Wizclumsy\Eminem\Facade::guessExtension($this->filename);
 
         $name = str_slug(str_replace(".$extension", '', $this->filename));
         $this->filename = $name.($extension ? ".{$extension}" : '');

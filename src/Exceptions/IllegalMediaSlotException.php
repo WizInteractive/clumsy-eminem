@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\Eminem\Exceptions;
+namespace Wizclumsy\Eminem\Exceptions;
 
 class IllegalMediaSlotException extends \RuntimeException
 {

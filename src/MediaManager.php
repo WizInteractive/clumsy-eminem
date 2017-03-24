@@ -1,10 +1,10 @@
 <?php
 
-namespace Clumsy\Eminem;
+namespace Wizclumsy\Eminem;
 
-use Clumsy\Assets\Facade as Asset;
-use Clumsy\Eminem\File\MediaFile;
-use Clumsy\Eminem\Models\Media;
+use Wizclumsy\Assets\Facade as Asset;
+use Wizclumsy\Eminem\File\MediaFile;
+use Wizclumsy\Eminem\Models\Media;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Event;

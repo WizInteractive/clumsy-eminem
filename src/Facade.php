@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\Eminem;
+namespace Wizclumsy\Eminem;
 
 class Facade extends \Illuminate\Support\Facades\Facade
 {

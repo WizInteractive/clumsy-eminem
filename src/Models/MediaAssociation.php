@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\Eminem\Models;
+namespace Wizclumsy\Eminem\Models;
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace Clumsy\Eminem\Controllers;
+namespace Wizclumsy\Eminem\Controllers;
 
 use Illuminate\Routing\Controller;
-use Clumsy\Eminem\MediaManager;
-use Clumsy\Eminem\Models\Media;
-use Clumsy\Eminem\Models\MediaAssociation;
-use Clumsy\Eminem\Exceptions\IllegalMediaSlotException;
+use Wizclumsy\Eminem\MediaManager;
+use Wizclumsy\Eminem\Models\Media;
+use Wizclumsy\Eminem\Models\MediaAssociation;
+use Wizclumsy\Eminem\Exceptions\IllegalMediaSlotException;
 
 class MediaController extends Controller
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Clumsy\Eminem;
+namespace Wizclumsy\Eminem;
 
 use Illuminate\Support\ServiceProvider;
-use Clumsy\Assets\Facade as Asset;
+use Wizclumsy\Assets\Facade as Asset;
 
 class EminemServiceProvider extends ServiceProvider
 {
@@ -93,12 +93,12 @@ class EminemServiceProvider extends ServiceProvider
 
                 $this->app['router']->match(['POST', 'PUT'], 'media-upload', [
                     'as'   => 'eminem.upload',
-                    'uses' => 'Clumsy\Eminem\Controllers\MediaController@upload'
+                    'uses' => 'Wizclumsy\Eminem\Controllers\MediaController@upload'
                 ]);
 
                 $this->app['router']->post('media-save-meta/{id?}', [
                     'as'   => 'eminem.save-meta',
-                    'uses' => 'Clumsy\Eminem\Controllers\MediaController@meta'
+                    'uses' => 'Wizclumsy\Eminem\Controllers\MediaController@meta'
                 ]);
             }
         );
@@ -123,7 +123,7 @@ class EminemServiceProvider extends ServiceProvider
 
                 $this->app['router']->get('eminem/output/{eminemMedia}', [
                     'as'   => 'eminem.media-route',
-                    'uses' => 'Clumsy\Eminem\Controllers\MediaController@outputMedia',
+                    'uses' => 'Wizclumsy\Eminem\Controllers\MediaController@outputMedia',
                 ]);
             }
         );

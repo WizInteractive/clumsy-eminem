@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\Eminem\Models;
+namespace Wizclumsy\Eminem\Models;
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Illuminate\Support\Facades\File as Filesystem;
@@ -407,7 +407,7 @@ class Media extends Eloquent
      *
      * @param mixed $key
      * @param mixed $value
-     * @return Clumsy\Eminem\Models\Media
+     * @return Wizclumsy\Eminem\Models\Media
      */
     public function setProperty($key, $value)
     {
@@ -515,7 +515,7 @@ class Media extends Eloquent
     /**
      * Process all saved image calls
      *
-     * @return Clumsy\Eminem\Models\Media
+     * @return Wizclumsy\Eminem\Models\Media
      */
     public function process()
     {

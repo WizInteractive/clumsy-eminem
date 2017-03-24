@@ -1,6 +1,6 @@
 <?php
 
-namespace Clumsy\Eminem\File;
+namespace Wizclumsy\Eminem\File;
 
 use Symfony\Component\HttpFoundation\File\File as BaseFile;
 
